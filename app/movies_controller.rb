@@ -29,7 +29,8 @@ end
 #end
 
 def can_get_the_first_item_in_the_database
-  Movie.first
+  movie = Movie.first
+  movie.title
 end
 
 def can_get_the_last_item_in_the_database
